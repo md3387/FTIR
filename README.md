@@ -51,6 +51,11 @@ wavelengths where there is no absorption may still show reduced transmittance. W
 So, the the postprocessing steps completed in FTIR "Integrated Absorbance" are:
 1) Baseline Correction
 2) Integrate Absorbance
+
+References
+
+Griffiths, P.R., deHaseth, J.A., "Fourier Transform Infrared Spectrometry 2nd Ed." Wiley 2007\\
+Thermo Fisher Scientific "FT-IR Spectrometers Nicolet iS50 Spectrometer User Guide" 2013\\
    
 
 
