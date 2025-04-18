@@ -57,6 +57,27 @@ References
 Griffiths, P.R., deHaseth, J.A., "Fourier Transform Infrared Spectrometry 2nd Ed." Wiley 2007\\
 Thermo Fisher Scientific "FT-IR Spectrometers Nicolet iS50 Spectrometer User Guide" 2013\\
    
+%FTIR External Detector Data conversion
 
+%V1: MDH 02/10/2019
+%   Converts a single voltage interferogram, mirror trigger, and HeNe Fringe
+%   into wavenumber vs transmission
+%V2: MDH 3/12/2025
+%   -Added trim function to account for interferogram files of different lengths
+%   -Updated user dialog to choose background and sample files
+%   -Added -ln(I/Io) block to convert transmission to absorbance
+
+%References
+%1. Griffiths, P.R., deHaseth, J.A., "Fourier Transform Infrared Spectrometry 2nd Ed." Wiley 2007
+%2. Thermo Fisher Scientific "FT-IR Spectrometers Nicolet iS50 Spectrometer User Guide" 2013
+
+%"FTIR_External_Detector_Data_Converter_BatchAbsorbance.m"  Uses subfunctions:
+%.....uipickfiles.m
+%.....FindMirrorTrigger.m
+%.....TDMS_readTDMSFile.m
+%..........TDMS_handleGetDataOption
+%..........TDMS_preprocessFile
+%..........TDMS_getGroupChanNames
+%.....TDMS_readChannelOrGroup
 
 
